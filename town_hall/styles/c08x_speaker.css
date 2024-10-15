@@ -11,7 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     width: 98%;
-    max-width: 850px;
+    max-width: 825px;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -83,7 +83,7 @@ article img {
 /* the styles for the aside */
 aside {
 	width: 30%;
-	max-width: 215px;
+	max-width: 200px;
 	float: right;
 	padding: 0 0 20px 20px;
 }
