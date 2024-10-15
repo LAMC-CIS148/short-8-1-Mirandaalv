@@ -1,5 +1,6 @@
 /* the styles for the elements */
 * {
+	box-sizing: boarder-box;
 	margin: 0;
 	padding: 0;
 }
@@ -9,7 +10,7 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 850px;
+    width: 98%;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -49,6 +50,7 @@ section {
 	width: 575px;
 	float: right;
 	padding: 0 20px 20px 20px;
+	display: flex;
 }
 section h1 {
 	color: #800000;
@@ -63,6 +65,7 @@ section p {
 /* the styles for the article */
 article {
 	padding: .5em 0;
+	width: 70%;
 }
 article h2 {
 	font-size: 115%;
@@ -72,11 +75,13 @@ article img {
 	float: right;
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
+	width: 50%;
+	height: auto;
 }
 
 /* the styles for the aside */
 aside {
-	width: 215px;
+	width: 30%;
 	float: right;
 	padding: 0 0 20px 20px;
 }
@@ -124,6 +129,7 @@ aside img {
 footer {
 	background-color: #931420;
 	clear: both;
+	margin-top: 20px;
 
 }
 footer p {
