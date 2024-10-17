@@ -99,7 +99,8 @@ aside img {
 	margin-left: 0;
 	margin-bottom: 1.5em; }
 #nav_list ul li { 
-	width: 180px;
+	max-width: 200px
+		width: 93%;
 	margin-bottom: .5em;
 	border: 2px double black;
 	border-radius: 10px;
